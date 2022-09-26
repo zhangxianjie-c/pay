@@ -1,5 +1,6 @@
 package android.origin.pay
 
+import android.content.Context
 import android.origin.pay.alipay.AliPay
 import android.origin.pay.vxpay.VxPay
 
@@ -8,7 +9,7 @@ Created by Zebra-RD张先杰 on 2022年7月27日17:23:39
 
 Description:支付模块
  */
-fun pay(init: Pay.() -> Unit) {
+fun Context.pay(init: Pay.() -> Unit) {
     val pay = Pay.create()
     init.invoke(pay)
 }
