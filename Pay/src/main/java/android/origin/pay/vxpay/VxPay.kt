@@ -1,4 +1,4 @@
-package com.android.origin.framework.pay.vxpay
+package android.origin.pay.vxpay
 
 import android.app.Activity
 import com.tencent.mm.opensdk.modelpay.PayReq

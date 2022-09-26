@@ -1,11 +1,11 @@
-package com.android.origin.framework.pay.alipay
+package android.origin.pay.alipay
 
 import android.app.Activity
+import android.origin.pay.alipay.dispose.PayResult
 import android.text.TextUtils
 import android.widget.Toast
 import com.alipay.sdk.app.PayTask
-import com.android.origin.framework.pay.alipay.dispose.OrderInfoUtil
-import com.android.origin.framework.pay.alipay.dispose.PayResult
+import android.origin.pay.alipay.dispose.OrderInfoUtil
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch

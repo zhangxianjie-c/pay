@@ -1,7 +1,7 @@
-package com.android.origin.framework.pay
+package android.origin.pay
 
-import com.android.origin.framework.pay.alipay.AliPay
-import com.android.origin.framework.pay.vxpay.VxPay
+import android.origin.pay.alipay.AliPay
+import android.origin.pay.vxpay.VxPay
 
 /**
 Created by Zebra-RD张先杰 on 2022年7月27日17:23:39
